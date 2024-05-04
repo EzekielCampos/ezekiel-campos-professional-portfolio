@@ -8,11 +8,18 @@ header{
     justify-content: space-around;
     width: 100%;
     background-color: #dcdcdc;
-
+align-items: center;
 }
 
-header ul{
+nav ul{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
+
+nav a {
+    color: #b9c6ae;
+    font-weight: bold;
+    text-decoration: none;
+  }
 
