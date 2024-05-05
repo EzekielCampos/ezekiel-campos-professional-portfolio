@@ -63,6 +63,15 @@ main{
     padding: 10px;
     margin-left: 5px;
 }
+#bio h2{
+    margin-right: 100px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 35px;
+    padding: 15px;
+    border-right:#000 2px solid;
+    
+}
 
 img{
     margin-top: 15px;
