@@ -37,13 +37,25 @@ nav a {
     font-size: 20px;
   }
 
-  /* When it hover over it a slim box with rounded corners */
+  /* When it mouse hovers over, a slim box with rounded corners and changes color*/
   nav li:hover{
     background-color: #459BB5;
     padding: 3px;
     border-radius: 5px;
     line-height: 1;
+
+    a{
+        color:#fff;
+    }
   }
+
+main{
+    display: flex;
+}
+
+#bio{
+    flex:2;
+}
 
 
 @media screen and (max-width:768px) {
