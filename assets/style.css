@@ -51,14 +51,21 @@ nav a {
 
 main{
     display: flex;
+    margin-top: 20px;
 }
 
 section{
-    background-color: aliceblue;
+    
 }
 
 #bio{
-    flex:2;
+    background-color: aliceblue;
+    flex: 1;
+}
+img{
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
