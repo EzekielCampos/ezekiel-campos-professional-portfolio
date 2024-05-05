@@ -49,8 +49,9 @@ nav a {
     }
   }
 
+
 main{
-    display: flex;
+   
     margin-top: 20px;
 }
 
@@ -58,15 +59,20 @@ main{
 
 /* This section style to the bio section and takes up more space than the img section */
 #bio{
-    background-color: aliceblue;
+    display:flex;
     padding: 10px;
-    flex: 1;
     margin-left: 5px;
 }
+
 img{
-    margin-top: 5px;
+    margin-top: 15px;
     margin-left: 20px;
     margin-right: 20px;
+    border: solid 5px #000;
+}
+
+#projects{
+
 }
 
 
