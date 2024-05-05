@@ -53,6 +53,10 @@ main{
     display: flex;
 }
 
+section{
+    background-color: aliceblue;
+}
+
 #bio{
     flex:2;
 }
