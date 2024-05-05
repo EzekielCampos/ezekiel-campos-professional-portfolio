@@ -17,6 +17,7 @@ header{
     padding:20px;
 }
 
+
 nav ul{
     display: flex;
     justify-content: space-between;
@@ -41,5 +42,15 @@ nav a {
     border-radius: 5px;
   }
 
+
+@media screen and (max-width:768px) {
+    header{
+        flex-direction: column;
+    }
+    h1{
+        margin-left: 10px;
+    }
+    
+}
  
 
