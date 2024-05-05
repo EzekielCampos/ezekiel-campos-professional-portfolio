@@ -22,13 +22,17 @@ nav ul{
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    min-width: 300px;
+    min-width: 375px;
 }
 
 nav a {
     color: #b9c6ae;
     font-weight: bold;
     text-decoration: none;
+  }
+
+  nav li{
+    font-size: 20px;
   }
 
  
