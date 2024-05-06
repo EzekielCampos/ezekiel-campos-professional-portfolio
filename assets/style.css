@@ -144,6 +144,10 @@ margin-right: 50px;
 
   }
 
+  #box-projects a{
+    text-decoration: none;
+  }
+
   #box-projects p:hover{
     box-shadow: 5px 2px 5px 2px #dcdcdc;
   }
