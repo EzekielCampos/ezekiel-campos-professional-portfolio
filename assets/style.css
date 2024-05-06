@@ -94,5 +94,18 @@ img{
     }
     
 }
+
+/* Adjusting bio section for when it shrinks to fit the page */
+@media screen and (max-width:650px){
+    #bio{
+        flex-direction: column;
+    }
+    #bio h2{
+        border-right: none;
+        border-bottom: #000 solid 2px;
+        line-height: .3;
+        margin-bottom: 20px;
+    }
+}
  
 
