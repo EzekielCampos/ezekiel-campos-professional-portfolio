@@ -19,7 +19,7 @@ header{
 }
 
 
-nav ul{
+header nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,7 +129,26 @@ main{
   }
 
   
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dcdcdc;
+    padding: 20px;
+}
 
+footer h3{
+    font-size: 20px;
+}
+
+footer nav ul{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: circle;
+        min-width: 375px;
+}
 
 
 @media screen and (max-width:768px) {
