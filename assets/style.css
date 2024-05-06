@@ -73,9 +73,10 @@ main{
     
 }
 
-img{
-    margin-left: 350px;
+#bio img{
+    margin-left: 20px;
     border: solid 5px #000;
+    margin-top:50px;
 }
 
 #projects{
