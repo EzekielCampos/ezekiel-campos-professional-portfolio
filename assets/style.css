@@ -99,12 +99,12 @@ main{
 #temp-img{
  display: flex;
  flex-wrap: wrap;
-flex:4 4;
+flex:1 1;
 margin-right: 50px;
   }
 
 #box-projects{
-    flex: 0 0 800px;
+    flex: 1 1 800px;
    height: 500px;
     /* text-align: center;
     border-style: solid;
