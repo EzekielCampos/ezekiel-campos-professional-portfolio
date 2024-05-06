@@ -68,8 +68,9 @@ main{
     text-align: center;
     line-height: 1.5;
     font-size: 35px;
-    padding: 15px;
+    padding: 22px;
     border-right:#000 2px solid;
+    white-space: nowrap;
     
 }
 
@@ -135,6 +136,8 @@ footer{
     align-items: center;
     background-color: #dcdcdc;
     padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
 }
 
 footer h3{
@@ -146,7 +149,7 @@ footer nav ul{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        list-style: circle;
+        list-style: none;
         min-width: 375px;
 }
 
