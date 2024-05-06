@@ -102,20 +102,29 @@ img{
   }
 
 #box-projects{
-    flex: 1 0 0;
-    padding: 10px;
+    flex: 0 0 1000px;
+   height: 350px;
     text-align: center;
     border-style: solid;
     border-width: 1px;
+    background-image: url("../assets/images/image-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   }
 
-#box-projects img{
+/* #box-projects img{
     margin-left:0px;
     width: 100%;
     border:none;
-}
+    
+
+} */
+
   #box-projects h3{
     text-align: center;
+    position:relative;
+    background-color: antiquewhite;
+    top: 312px;
   }
 
   
