@@ -74,13 +74,22 @@ main{
 }
 
 img{
-    margin-top: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 350px;
     border: solid 5px #000;
 }
 
 #projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projects h2{
+    margin-right: 100px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 35px;
+    padding: 15px;
+    border-right:#000 2px solid;
 
 }
 
@@ -95,7 +104,7 @@ img{
     
 }
 
-/* Adjusting bio section for when it shrinks to fit the page */
+/* Adjusting bio section for when it shrinks it renders cleaner */
 @media screen and (max-width:650px){
     #bio{
         flex-direction: column;
