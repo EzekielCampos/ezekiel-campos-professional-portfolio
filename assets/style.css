@@ -126,11 +126,26 @@ margin-right: 50px;
 
   #box-projects h3{
     text-align: center;
-    position:relative;
+   
     background-color: antiquewhite;
     border-style: ridge;
     border-color: #000;
     
+  }
+
+  #box-projects p{
+    background-color: #dcdcdc;
+    color:#447483 ;
+    position: relative;
+    bottom: 50px;
+    left:10px;
+    width: 70px;
+    border: #000 2px double;
+
+  }
+
+  #box-projects p:hover{
+    box-shadow: 5px 2px 5px 2px #dcdcdc;
   }
 
   
