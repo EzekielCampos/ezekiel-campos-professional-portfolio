@@ -148,9 +148,16 @@ margin-right: 50px;
     text-decoration: none;
   }
 
-  #box-projects p:hover{
-    box-shadow: 2px 2px 2px 2px #000;
+  #box-projects a:link{
+    color:#000
   }
+  
+  #box-projects p:hover{
+    box-shadow: 2px 2px 20px #000;
+    border-radius: 5px;
+  }
+
+  
 
   
 footer{
