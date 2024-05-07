@@ -75,9 +75,12 @@ main{
 }
 
 #bio img{
-    margin-left: 20px;
+    float: left;
+    max-width: 100%;
     border: solid 5px #000;
-    margin-top:50px;
+    position: relative;
+    right:50px;
+
 }
 
 #projects{
@@ -137,7 +140,7 @@ margin-right: 50px;
     bottom: 70px;
     left:10px;
     width: 70px;
-    border: #000 2px double;
+    border: #000 5px double;
 
   }
 
@@ -156,7 +159,7 @@ margin-right: 50px;
   }
 
   #box-projects img:active{
-    border: 2px solid black;
+    border: 5px solid black;
     border-radius: 5px;
   }
 
