@@ -147,10 +147,11 @@ margin-right: 50px;
     color:#000
   }
 
- 
+ /* This emphasizes the repository string inside the img */
   .box-projects p:hover{
     box-shadow: 4px 2px 5px #000;
     border-radius: 5px;
+    font-weight: bolder;
   }
 
   .box-projects img:active{
@@ -200,6 +201,7 @@ footer nav ul{
 @media screen and (max-width:800px){
     #bio{
         flex-direction: column;
+        line-height: 2;
     }
     #bio h2{
         border-right: none;
@@ -208,6 +210,12 @@ footer nav ul{
         margin-bottom: 20px;
         margin-left:50px;
     }
+        
+        #bio div{
+          width: 300px;
+          margin-left: 220px;
+          margin-bottom: 20px;
+        }
 
     #projects{
         flex-direction: column;
