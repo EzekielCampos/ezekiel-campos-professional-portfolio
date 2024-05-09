@@ -1,4 +1,6 @@
 
+
+
 *{
 margin:0;
 }
@@ -98,7 +100,7 @@ main{
 
 }
 
-/* placeholder for projects */
+
 #list-of-projects{
  display: flex;
  flex-wrap: wrap;
@@ -106,6 +108,9 @@ flex:1 1;
 margin-right: 50px;
   }
 
+
+  /* This class creates the boxes that will 
+  display each project  */
 .box-projects{
     flex: 500px;
   margin-top: 100px;
@@ -126,6 +131,8 @@ margin-right: 50px;
     
   }
 
+  /* This box is for the link to the repo
+  that is at the bottom of the image */
   .box-projects p{
     background-color: antiquewhite;
     color:#000 ;
@@ -142,7 +149,7 @@ margin-right: 50px;
   }
 
   .box-projects a:link{
-    color:#000
+    color:#c5f710fe;
   }
 
  /* This emphasizes the repository string inside the img */
@@ -150,7 +157,7 @@ margin-right: 50px;
     box-shadow: 4px 2px 5px #000;
     border-radius: 5px;
     font-weight: bolder;
-    width: 80px;
+    width: 75px;
   }
 
   .box-projects img:active{
