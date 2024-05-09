@@ -187,21 +187,22 @@ footer nav ul{
 }
 
 
-@media screen and (max-width:800px) {
-    header{
-        flex-direction: column;
-    }
-    h1{
-        margin-left: 10px;
-    }
-    
-}
+
 
 /* Adjusting bio section for when it shrinks it renders cleaner */
 @media screen and (max-width:800px){
+
+  header{
+    flex-direction: column;
+}
+h1{
+    margin-left: 10px;
+}
+
     #bio{
         flex-direction: column;
         line-height: 2;
+        align-items: center;
     }
     #bio h2{
         border-right: none;
@@ -212,10 +213,17 @@ footer nav ul{
     }
         
         #bio div{
+          /* flex:1 1; */
           width: 300px;
-          margin-left: 220px;
+          margin-left: 40px;
           margin-bottom: 20px;
+          ;
         }
+        /* #bio img{
+          float: right;
+          position: relative;
+          right: 100px
+        }  */
 
     #projects{
         flex-direction: column;
