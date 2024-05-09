@@ -184,11 +184,13 @@ footer nav ul{
         
 }
 
-footer nav li:hover{
+footer a:hover{
   color: #fff;
 }
 
-footer nav li::after{
+
+
+.first-three::after{
   content: "\25D1";
 }
 
@@ -202,6 +204,7 @@ footer nav li::after{
 
   header{
     flex-direction: column;
+    align-items: center;
 }
 h1{
     margin-left: 10px;
