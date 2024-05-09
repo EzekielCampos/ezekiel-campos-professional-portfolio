@@ -109,8 +109,6 @@ margin-right: 50px;
 .box-projects{
     flex: 500px;
   margin-top: 100px;
-  /* height:auto; */
-
   }
 
 .box-projects img{
@@ -186,6 +184,16 @@ footer nav ul{
         
 }
 
+footer nav li:hover{
+  color: #fff;
+}
+
+footer nav li::after{
+  content: "\25D1";
+}
+
+
+
 
 
 
@@ -213,17 +221,12 @@ h1{
     }
         
         #bio div{
-          /* flex:1 1; */
           width: 300px;
           margin-left: 40px;
           margin-bottom: 20px;
-          ;
+        
         }
-        /* #bio img{
-          float: right;
-          position: relative;
-          right: 100px
-        }  */
+        
 
     #projects{
         flex-direction: column;
