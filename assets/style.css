@@ -150,6 +150,7 @@ margin-right: 50px;
     box-shadow: 4px 2px 5px #000;
     border-radius: 5px;
     font-weight: bolder;
+    width: 80px;
   }
 
   .box-projects img:active{
