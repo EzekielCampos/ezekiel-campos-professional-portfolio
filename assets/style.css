@@ -131,7 +131,7 @@ margin-right: 50px;
   /* This box is for the link to the repo
   that is at the bottom of the image */
   .box-projects button{
-    background-color: greenyellow;
+    background-color: skyblue;
     color:#000 ;
     position: relative;
     bottom: 70px;
@@ -139,6 +139,7 @@ margin-right: 50px;
     width: 70px;
 border-radius: 5px;
 width:25%;
+height: 8%;
 
   }
 
@@ -151,11 +152,10 @@ width:25%;
   }
 
  /* This emphasizes the repository string inside the img */
-  .box-projects p:hover{
+  .box-projects button:hover{
     box-shadow: 4px 2px 5px #000;
     border-radius: 5px;
     font-weight: bolder;
-    width: 75px;
   }
 
   .box-projects img:active{
