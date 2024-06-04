@@ -130,14 +130,15 @@ margin-right: 50px;
 
   /* This box is for the link to the repo
   that is at the bottom of the image */
-  .box-projects p{
-    background-color: antiquewhite;
+  .box-projects button{
+    background-color: greenyellow;
     color:#000 ;
     position: relative;
     bottom: 70px;
     left:10px;
     width: 70px;
-    border: #000 5px double;
+border-radius: 5px;
+width:25%;
 
   }
 
