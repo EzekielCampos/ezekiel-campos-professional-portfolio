@@ -88,12 +88,21 @@ main{
 }
 
 #projects h2{
-    margin-right: 100px;
-    text-align: center;
-    line-height: 1.5;
-    font-size: 35px;
-    padding: 15px;
-    border-right:#000 2px solid;
+    margin-right: 100px !important;
+    text-align: center!important;
+    line-height: 1.5!important;
+    font-size: 35px!important;
+    padding: 15px!important;
+    border-right:#000 2px solid!important;
+
+}
+#all-projects h2{
+  margin-right: 100px !important;
+  /* text-align: center!important;
+  line-height: 1.5!important;
+  font-size: 35px!important;
+  padding: 15px!important; */
+  border-right:#000 2px solid!important;
 
 }
 
@@ -243,8 +252,8 @@ h1{
     }
     #projects h2{
 
-        border-right: none;
-        border-bottom: #000 solid 2px;
+        border-right: none !important;
+        border-bottom: #000 solid 2px !important;
        
         margin-left: 30px;
         
