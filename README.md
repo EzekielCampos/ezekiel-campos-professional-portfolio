@@ -12,7 +12,7 @@ No installations used (NPM)
 This webpage will be used to showcase my skills and talents as a programmer through my projects to potential future employers.
 
 ### Link
-https://ezekielcampos.github.io/ezekiel-campos-professional-portfolio/
+https://ezekielcampos.github.io/challenge-4-personal-blog-webpage/
 
 ### Screenshot
 
