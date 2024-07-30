@@ -127,6 +127,11 @@ margin-right: 50px;
     max-width: 100%;    
 
 }
+.box-projects iframe{
+    
+  max-width: 100%;    
+
+}
 
   .box-projects h3{
     text-align: center;
