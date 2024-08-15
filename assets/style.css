@@ -81,6 +81,14 @@ main{
     right:50px;
 
 }
+#bio p{
+  margin-top: 50px;
+  font-size: 17px;
+  line-height: 2 ;
+
+
+}
+
 
 #projects{
     display: flex;
