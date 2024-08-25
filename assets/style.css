@@ -75,10 +75,12 @@ main{
 
 #bio img{
     float: left;
-    max-width: 100%;
+    max-width: 300px;
     border: solid 5px #000;
     position: relative;
+    margin-top: 50px;
     right:50px;
+    max-height: 4000px;
 
 }
 #bio p{
